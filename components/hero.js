@@ -11,7 +11,7 @@ const Hero = () => {
               UCAE Global Services
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-500">
-            UCAE Global Services is a division of <span className="font-bold">LAPEX</span> a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a cyber cafe. It is designed to cater to the needs of professionals, entrepreneurs, and remote workers who require a productive workspace and access to high-speed internet connectivity.
+            UCAE Global Services is a division of <span className="font-bold">LAPEX</span> a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a Cybercafe. It is designed to cater to the needs of professionals, entrepreneurs, and remote workers who require a productive workspace and access to high-speed internet connectivity.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
