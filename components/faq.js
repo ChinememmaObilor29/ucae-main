@@ -35,8 +35,8 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "What services does your Business Center/Cyber cafe offer?",
-    answer: "Our Business Center/Cyber cafe offers a range of services including Online Registration, printing, Grpahics Design, photocopying, computer training, and other computer services.",
+    question: "What services does your Business Center/Cybercafe offer?",
+    answer: "Our Business Center/Cybercafe offers a range of services including Online Registration, printing, Grpahics Design, photocopying, computer training, and other computer services.",
   },
   {
     question: "Do you offer printing and scanning services?",
