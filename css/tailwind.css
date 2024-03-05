@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply dark:bg-gray-200;
+    @apply dark:bg-gray-300;
   }
 }
 
