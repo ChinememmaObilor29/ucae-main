@@ -19,7 +19,7 @@ const Home = () => {
         <title>UCAE Global Services</title>
         <meta
           name="description"
-          content="UCAE Global Services is a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a cyber cafe."
+          content="UCAE Global Services is a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a Cybercafe."
         />
         <link rel="icon" href="img/WhatsApp Image 2024-02-03 at 19.23.09_1b9b2ddf.jpg.png"/>
       </Head>
@@ -29,14 +29,14 @@ const Home = () => {
       <SectionTitle
         pretitle="UCAE Benefits"
         title=" Here are the Services we provide">
-        Unlock a World of Services: Elevate Your Business Experience with Our Comprehensive Business Center and Cyber Cafe Solutions!
+        Unlock a World of Services: Elevate Your Business Experience with Our Comprehensive Business Center and CyberCafe Solutions!
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Watch a video"
         title="Elevate your experience with UCAE">
-        Connect, create, and conquer at UCAE Cyber Cafe & Business Center – your ultimate hub for productivity and innovation.
+        Connect, create, and conquer at UCAE CyberCafe & Business Center – your ultimate hub for productivity and innovation.
       </SectionTitle>
       <Video />
       <SectionTitle
