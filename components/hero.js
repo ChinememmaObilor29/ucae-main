@@ -42,11 +42,11 @@ const Hero = () => {
     />
     
     {/* Image for mobile screens */}
-    <Image
+     <Image
       src={mobileHeroImg}
-      width="300"   // Adjust dimensions according to your requirement
-      height="300"
-      className={"object-cover block lg:hidden"}
+      width="full"   // Set width to 100% on mobile screens
+      height="auto"  // Maintain aspect ratio
+      className={"object-cover block lg:hidden w-80"} // Set width to 80% on mobile screens
       alt="Mobile Hero Illustration"
       loading="eager"
       placeholder="blur"
