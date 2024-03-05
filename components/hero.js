@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/businessman-taking-note.jpg";
+import mobileHeroImg from "../public/img/hpwoman.png";
 const Hero = () => {
   return (
     <>
@@ -28,18 +29,30 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="616"
-              height="617"
-              className={"object-cover"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
-        </div>
+  <div className="">
+    {/* Original image for larger screens */}
+    <Image
+      src={heroImg}
+      width="616"
+      height="617"
+      className={"object-cover hidden lg:block"}
+      alt="Hero Illustration"
+      loading="eager"
+      placeholder="blur"
+    />
+    
+    {/* Image for mobile screens */}
+    <Image
+      src={mobileHeroImg}
+      width="300"   // Adjust dimensions according to your requirement
+      height="300"
+      className={"object-cover block lg:hidden"}
+      alt="Mobile Hero Illustration"
+      loading="eager"
+      placeholder="blur"
+    />
+  </div>
+</div>
       </Container>
       <Container>
         <div className="flex flex-col justify-center">
