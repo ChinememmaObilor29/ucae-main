@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/businessman-taking-note.jpg";
-import mobileHeroImg from "../public/img/hpwoman.png";
+import mobileHeroImg from "../public/img/ai.jpg";
 const Hero = () => {
   return (
     <>
