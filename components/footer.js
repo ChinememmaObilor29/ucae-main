@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            UCAE Global Services is a division of <span className="font-bold">LAPEX</span> a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a cyber cafe.
+            UCAE Global Services is a division of <span className="font-bold">LAPEX</span> a versatile and modern facility that combines the convenience of a traditional business center with the amenities of a Cybercafe.
             </div>
           </div>
 
