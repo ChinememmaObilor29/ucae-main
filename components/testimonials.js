@@ -12,7 +12,7 @@ const Testimonials  = () => {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-gray-100">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl leading-normal text-gray-800">
             Explore our Professional <Mark>Printing</Mark>Services for Crisp, Clear, and Convenient Results
             </p>
 
