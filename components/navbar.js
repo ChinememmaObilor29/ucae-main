@@ -50,7 +50,7 @@ const Navbar = () => {
               {navigation.map((menuItem, index) => (
                 <li key={index} className="mb-4">
                   <Link href={menuItem.href}>
-                    <span className="text-lg text-gray-800 dark:text-gray-200 hover:text-indigo-500 dark:hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 cursor-pointer">
+                    <span className="text-lg text-gray-800 dark:text-gray-800 hover:text-indigo-500 dark:hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 cursor-pointer">
                       {menuItem.label}
                     </span>
                   </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             {navigation.map((menuItem, index) => (
               <li className="mr-2 nav__item" key={index}>
                 <Link href={menuItem.href}>
-                  <span className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 cursor-pointer">
+                  <span className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-800 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 cursor-pointer">
                     {menuItem.label}
                   </span>
                 </Link>
