@@ -2,14 +2,11 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/outline'
-import Image1 from "../public/img/3.jpg";
-import Image2 from "../public/img/1.jpg";
 import { CursorArrowRaysIcon, BookmarkIcon, ComputerDesktopIcon } from '@heroicons/react/20/solid'
 
 const Navbar = () => {
   const navigation = [
-    { label: "Home", href: "home" },
-    { label: "Facilities", href: "/facilities" },
+    { label: "Home", href: "/" },
     { label: "Contact Support", href: "/contact" },
   ];
 
@@ -149,11 +146,12 @@ export default function Example() {
             </div>
           </div>
           <img
-            src={Image2}
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
-          />
+  src="/img/1.jpg"
+  className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+  width={2432}
+  height={1442}
+/>
+
         </div>
       </div>
     </div>
