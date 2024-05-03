@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const navigation = [
+    { label: "Home", href: "/" },
     { label: "About us", href: "/about" },
-    { label: "Facilities", href: "/facilities" },
     { label: "Contact Support", href: "/contact" },
   ];
 
