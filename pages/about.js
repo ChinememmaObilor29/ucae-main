@@ -109,7 +109,7 @@ export default function Example() {
         <p className="mt-6 text-base leading-7 text-gray-600">UCAE Global Services is a versatile and modern <br></br> facility that combines the convenience of a traditional business <br></br> center with the amenities of a Cybercafe.</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href="/"
             className="rounded-md bg-indigo-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Go back home
